@@ -132,7 +132,21 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'HTML & (S)CSS', 'React', 'Vue', 'Node.js', 'WordPress'];
+  const skills = [
+    'JavaScript (ES6+)',
+    'HTML5 & CSS3',
+    'React',
+    'Redux',
+    'Node.js',
+    'Express',
+    'Python',
+    'Flask',
+    'Sequelize',
+    'SQLAlchemy',
+    'SQL (PostgreSQL',
+    'Docker',
+    'Git',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,22 +155,20 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Hello! I'm Brittany, a software engineer based in Boston, MA.</p>
+            <p>Hello! I'm Daniel, a software engineer with a passion for design.</p>
 
             <p>
-              I enjoy creating things that live on the internet, whether that be websites,
-              applications, or anything in between. My goal is to always build products that provide
-              pixel-perfect, performant experiences.
+              I'm a highly driven developer who strives to make a difference through my code. I am
+              always improving my skills to better build both well designed, aesthetic front-end
+              experiences and functional, efficient back-ends.
             </p>
 
             <p>
-              Shortly after graduating from{' '}
-              <a href="https://www.ccis.northeastern.edu">Northeastern University</a>, I joined the
-              engineering team at <a href="https://www.upstatement.com">Upstatement</a> where I work
-              on a wide variety of interesting and meaningful projects on a daily basis.
+              Outside of programming you might find me upgrading or tweaking my home servers, or 3D
+              printing awesome things for fun or practicality.
             </p>
 
-            <p>Here are a few technologies I've been working with recently:</p>
+            <p>Here are some of the technologies I am skilled in:</p>
           </div>
 
           <ul className="skills-list">
