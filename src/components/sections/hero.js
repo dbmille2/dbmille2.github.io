@@ -52,7 +52,7 @@ const Hero = () => {
   const three = <h3 className="big-heading">I build things for the web.</h3>;
   const four = (
     <p>
-      I'm a software engineer from Wilmington, NC with a backround in both front-end and back-end
+      I'm a software engineer from Wilmington, NC with a background in both front-end and back-end
       development. My main tools are JavaScript, React, Redux, and Python.
     </p>
   );
