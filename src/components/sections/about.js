@@ -143,7 +143,7 @@ const About = () => {
     'Flask',
     'Sequelize',
     'SQLAlchemy',
-    'SQL (PostgreSQL',
+    'SQL (PostgreSQL)',
     'Docker',
     'Git',
   ];
