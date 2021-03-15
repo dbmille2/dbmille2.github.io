@@ -5,7 +5,7 @@ cover: './funki.png'
 github: 'https://github.com/dbmille2/funki'
 external: 'https://funkiforest.herokuapp.com/'
 tech:
-  - React.js
+  - React
   - THREE.js
   - WebAudioAPI
 showInProjects: true
